@@ -54,3 +54,12 @@ function newElement() {
   }
   
 }
+let obj1 = {
+    username : 'pakize',
+    type: 'cat',
+    yas : [1,2,3,4],
+    fonk : () => {
+        return `${this.username[0].toLocaleUpperCase()}${this.username.slice(1)} + ${this.type} + ${this.yas}`
+    }
+}
+ 
